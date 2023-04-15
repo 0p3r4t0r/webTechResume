@@ -1,0 +1,13 @@
+---
+import { Header } from "../components/react/Header";
+import Resume from "../layouts/Resume.astro";
+---
+
+<Resume>
+  <Header
+    client:load
+    slot="header"
+    yourName="0p3r4t0r"
+    yourTitle="Programmer"
+  />
+</Resume>
